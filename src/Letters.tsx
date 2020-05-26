@@ -17,7 +17,7 @@ const Letters = (props: Props) => {
     }
 
     return (
-        <div>
+        <div className="letters">
             {stringToWrite}
         </div>
     );
