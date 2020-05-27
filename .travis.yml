@@ -1,0 +1,20 @@
+sudo: true
+language: node_js
+node_js:
+  - node
+git:
+  quiet: true
+cache: npm
+
+env:
+  - PUBLIC_URL=https://hazizz.hu/vakacio
+
+script:
+  - npm run build
+
+deploy:
+  provider: pages
+  token: $github_token
+  edge: true
+  local_dir: build
+  fqdn: hazizz.hu/vakacio/
