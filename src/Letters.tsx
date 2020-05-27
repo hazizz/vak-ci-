@@ -1,5 +1,5 @@
 import React from 'react';
-import moment from "moment";
+import moment from "moment-business-days";
 
 interface Props {
     now: moment.Moment,
@@ -9,7 +9,7 @@ interface Props {
 const Letters = (props: Props) => {
     const fullString = "VAKÁCIÓ!";
     let stringToWrite="";
-    const timeBetween: moment.Duration = moment.duration(props.end.diff(props.now))
+    const timeBetween: moment.Duration = moment.duration(props.end.businessDiff(props.now), "d")
 
     if (timeBetween.days() <= fullString.length){
         stringToWrite = fullString.slice(timeBetween.days());

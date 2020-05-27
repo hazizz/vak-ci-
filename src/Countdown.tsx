@@ -25,12 +25,15 @@ const Countdown = (props: Props) => {
     </span>;
 
     useEffect(() => {
-        if (timeBetween.seconds() < 0){
+        if (timeBetween.seconds() < 0 ||
+            timeBetween.minutes() < 0 ||
+            timeBetween.hours() < 0 ||
+            timeBetween.days() < 0 ||
+            timeBetween.weeks() < 0 ||
+            timeBetween.months() < 0 ||
+            timeBetween.years() < 0){
             props.reached();
         }
-
-        console.log((props.reachCounter % 2) === 0);
-        console.log(props.reachCounter);
     })
 
     return (
