@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6a646b03c7d8794768a88ca1b688ffef",
+    "revision": "2c1bab2d7286d36386b1e029f8c81419",
     "url": "https://hazizz.hu/vakacio/index.html"
   },
   {
-    "revision": "526fdc249acd29c580c1",
-    "url": "https://hazizz.hu/vakacio/static/css/main.9087c2cb.chunk.css"
+    "revision": "f2d4b312363b5c817831",
+    "url": "https://hazizz.hu/vakacio/static/css/main.39bc94c9.chunk.css"
   },
   {
     "revision": "2f4b394a25cafa6f0d8c",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://hazizz.hu/vakacio/static/js/2.2b521f5b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "526fdc249acd29c580c1",
-    "url": "https://hazizz.hu/vakacio/static/js/main.08ec371e.chunk.js"
+    "revision": "f2d4b312363b5c817831",
+    "url": "https://hazizz.hu/vakacio/static/js/main.b337fcaf.chunk.js"
   },
   {
     "revision": "1cc944f30895a4e8a1ac",
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://hazizz.hu/vakacio/static/media/ChelseaMarket-Regular.405f23af.ttf"
   },
   {
-    "revision": "9406d0ab606cf8cb91c41b65556bd836",
-    "url": "https://hazizz.hu/vakacio/static/media/Lobster-Regular.9406d0ab.ttf"
+    "revision": "569273ee309ba26b0660e212e8bc0f89",
+    "url": "https://hazizz.hu/vakacio/static/media/Lobster-Regular.569273ee.ttf"
   },
   {
     "revision": "1c03ed6d21f1f2549254f51c905e0104",

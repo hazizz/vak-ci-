@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "https://hazizz.hu/vakacio/static/css/main.9087c2cb.chunk.css",
-    "main.js": "https://hazizz.hu/vakacio/static/js/main.08ec371e.chunk.js",
-    "main.js.map": "https://hazizz.hu/vakacio/static/js/main.08ec371e.chunk.js.map",
+    "main.css": "https://hazizz.hu/vakacio/static/css/main.39bc94c9.chunk.css",
+    "main.js": "https://hazizz.hu/vakacio/static/js/main.b337fcaf.chunk.js",
+    "main.js.map": "https://hazizz.hu/vakacio/static/js/main.b337fcaf.chunk.js.map",
     "runtime-main.js": "https://hazizz.hu/vakacio/static/js/runtime-main.ad3fad64.js",
     "runtime-main.js.map": "https://hazizz.hu/vakacio/static/js/runtime-main.ad3fad64.js.map",
     "static/js/2.2b521f5b.chunk.js": "https://hazizz.hu/vakacio/static/js/2.2b521f5b.chunk.js",
     "static/js/2.2b521f5b.chunk.js.map": "https://hazizz.hu/vakacio/static/js/2.2b521f5b.chunk.js.map",
     "index.html": "https://hazizz.hu/vakacio/index.html",
-    "precache-manifest.5dc20876d9039ce76e18716899205e0a.js": "https://hazizz.hu/vakacio/precache-manifest.5dc20876d9039ce76e18716899205e0a.js",
+    "precache-manifest.537322e7c2513e1aa17c0b7dbffb8e0f.js": "https://hazizz.hu/vakacio/precache-manifest.537322e7c2513e1aa17c0b7dbffb8e0f.js",
     "service-worker.js": "https://hazizz.hu/vakacio/service-worker.js",
-    "static/css/main.9087c2cb.chunk.css.map": "https://hazizz.hu/vakacio/static/css/main.9087c2cb.chunk.css.map",
+    "static/css/main.39bc94c9.chunk.css.map": "https://hazizz.hu/vakacio/static/css/main.39bc94c9.chunk.css.map",
     "static/js/2.2b521f5b.chunk.js.LICENSE.txt": "https://hazizz.hu/vakacio/static/js/2.2b521f5b.chunk.js.LICENSE.txt",
     "static/media/ChelseaMarket-Regular.ttf": "https://hazizz.hu/vakacio/static/media/ChelseaMarket-Regular.405f23af.ttf",
-    "static/media/Lobster-Regular.ttf": "https://hazizz.hu/vakacio/static/media/Lobster-Regular.9406d0ab.ttf",
+    "static/media/Lobster-Regular.ttf": "https://hazizz.hu/vakacio/static/media/Lobster-Regular.569273ee.ttf",
     "static/media/chawp.regular.ttf": "https://hazizz.hu/vakacio/static/media/chawp.regular.1c03ed6d.ttf"
   },
   "entrypoints": [
     "static/js/runtime-main.ad3fad64.js",
     "static/js/2.2b521f5b.chunk.js",
-    "static/css/main.9087c2cb.chunk.css",
-    "static/js/main.08ec371e.chunk.js"
+    "static/css/main.39bc94c9.chunk.css",
+    "static/js/main.b337fcaf.chunk.js"
   ]
 }
