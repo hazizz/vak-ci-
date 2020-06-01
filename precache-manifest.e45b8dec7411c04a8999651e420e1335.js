@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c00b6f2c3a8827c351815b543e010a3e",
+    "revision": "ac10e4f10ea2961186a461a4b2b3bd49",
     "url": "https://hazizz.hu/vakacio/index.html"
   },
   {
-    "revision": "4d51bea2f4f1b65a308a",
-    "url": "https://hazizz.hu/vakacio/static/css/main.c1d3cd1e.chunk.css"
+    "revision": "b246e99856484874bf97",
+    "url": "https://hazizz.hu/vakacio/static/css/main.f85367b2.chunk.css"
   },
   {
     "revision": "10c487d83212477e8ba8",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://hazizz.hu/vakacio/static/js/2.94349d56.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4d51bea2f4f1b65a308a",
-    "url": "https://hazizz.hu/vakacio/static/js/main.e64cf62a.chunk.js"
+    "revision": "b246e99856484874bf97",
+    "url": "https://hazizz.hu/vakacio/static/js/main.4ec65bf9.chunk.js"
   },
   {
     "revision": "1cc944f30895a4e8a1ac",
