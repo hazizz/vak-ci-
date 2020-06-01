@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "https://hazizz.hu/vakacio/precache-manifest.779214ac2793b7564e11de8750ff81a8.js"
+  "https://hazizz.hu/vakacio/precache-manifest.42df59a653807ffac70b333d9f8f9380.js"
 );
 
 self.addEventListener('message', (event) => {
