@@ -6,6 +6,7 @@ import Letters from './Letters';
 
 //@ts-ignore
 import {CookieBanner} from "@palmabit/react-cookie-law";
+import firebase from "firebase";
 
 const Main = (props: {backgroundIndex: number}) => {
     const [currentDate, setCurrentDate] = useState<moment.Moment>(moment());
@@ -48,16 +49,18 @@ const Main = (props: {backgroundIndex: number}) => {
             <Countdown now={currentDate} end={toDate} reached={reached} reachCounter={reachCount}/>
             {(reachCount % 2) !== 0 ? <Letters now={currentDate} end={toDate}/> : ""}
 
-            <footer>Az oldal elkészültét támogatta a <a href="//hazizz.hu">Házizz</a>!</footer>
+            <footer>Az oldal elkészültét támogatta a <a href="//hazizz.hu" onClick={() => {
+                firebase.analytics().logEvent("navigate_to_main_page");
+            }}>Házizz</a>!</footer>
 
             <CookieBanner
-                message="A sütik sose mennek vakációzni, és ezen az oldalon is megtalálhatóak. További részletek olvashatsz erről az alábbi linken!"
+                message="(FEJLESZTŐI VERZIÓ!!! AZ ADATKEZELÉSI NYILATKOZAT NEM TELJES!) A sütik sose mennek vakációzni, és ezen az oldalon is megtalálhatóak. További részletek olvashatsz erről az alábbi linken!"
                 showPreferencesOption={false}
                 showStatisticsOption={false}
                 showMarketingOption={false}
                 privacyPolicyLinkText="Adatvédelmi nyilatkozat"
+                policyLink="adatkezeles.txt"
                 acceptButtonText="Elfogad"
-
             />
         </main>
     );
