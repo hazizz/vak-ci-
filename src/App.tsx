@@ -1,44 +1,27 @@
 import React, {useEffect, useState} from 'react';
-import moment from "moment";
-import Countdown from "./Countdown";
+import Main from "./Main";
 import config from "./config.json";
-import Letters from './Letters';
 
+const generateNewBgIndex = (): number => {
+    return Math.floor(Math.random() * config.backgrounds.length - 1) + config.backgrounds.length - 1;
+}
 
 const App = () => {
-    const [currentDate, setCurrentDate] = useState<moment.Moment>(moment());
-    const [toDate, setToDate] = useState<moment.Moment>(moment(config.currentYearStart));
-    let [reachCount, setReachCount] = useState<number>(0);
+    const [backgroundIndex, setBeckgroundIndex] = useState<number>(generateNewBgIndex());
 
     useEffect(() => {
         setTimeout(() => {
-            setCurrentDate(moment());
-        }, 1000);
-    })
-
-    const reached = () => {
-        switch (reachCount) {
-            case 0:
-                setToDate(moment(config.currentYearEnd));
-                break;
-            case 1:
-                setToDate(moment(config.nextYearStart));
-                break;
-            case 2:
-                setToDate(moment(config.nextYearEnd));
-                break;
-        }
-        setReachCount(reachCount+1);
-    }
+            let newIndex = generateNewBgIndex();
+            while (backgroundIndex === newIndex) {
+                newIndex = generateNewBgIndex();
+            }
+            setBeckgroundIndex(newIndex);
+        }, 600000)
+    });
 
     return (
-        <main style={{backgroundColor: "#59dc11", height: "100vh", width: "100vw"}}>
-            <Countdown now={currentDate} end={toDate} reached={reached} reachCounter={reachCount} />
-            {(reachCount % 2) !== 0 ? <Letters now={currentDate} end={toDate}/> : ""}
-
-            <footer>Az oldal elkészültét támogatta a <a href="//hazizz.hu">Házizz</a>!</footer>
-        </main>
+        <Main backgroundIndex={1}/>
     );
-}
+};
 
 export default App;

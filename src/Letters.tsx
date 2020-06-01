@@ -9,7 +9,10 @@ interface Props {
 const Letters = (props: Props) => {
     const fullString = "VAKÁCIÓ!";
     let stringToWrite="";
-    const timeBetween: moment.Duration = moment.duration(props.end.businessDiff(props.now), "d")
+    const timeBetween: moment.Duration = moment.duration(props.end.businessDiff(props.now), "d");
+    moment.updateLocale('hu', {
+        workingWeekdays: [1, 2, 3, 4, 5]
+    });
 
     if (timeBetween.days() <= fullString.length){
         stringToWrite = fullString.slice(timeBetween.days());

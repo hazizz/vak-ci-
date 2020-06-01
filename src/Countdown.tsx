@@ -19,9 +19,11 @@ const Countdown = (props: Props) => {
         {timeBetween.weeks() > 0 ? timeBetween.weeks() + " hét, " : ""}
         {timeBetween.days() % 7 > 0 ? (timeBetween.days() % 7) + " nap " : ""}
         {isRowBreakNeeded ? <br/> : ""}
-        {timeBetween.hours() > 0 ? timeBetween.hours() + " óra, " : ""}
-        {timeBetween.minutes() < 10 ? "0" + timeBetween.minutes() + " perc, " : timeBetween.minutes() + " perc, "}
-        {timeBetween.seconds() < 10 ? "0" + timeBetween.seconds() + " másodperc" : timeBetween.seconds() + " másodperc"}
+        <span className="numbers">
+            {timeBetween.hours() > 0 ? timeBetween.hours() + ":" : ""}
+            {timeBetween.minutes() < 10 ? "0" + timeBetween.minutes() + ":" : timeBetween.minutes() + ":"}
+            {timeBetween.seconds() < 10 ? "0" + timeBetween.seconds().toString() : timeBetween.seconds().toString()}
+        </span>
     </span>;
 
     useEffect(() => {
@@ -31,7 +33,7 @@ const Countdown = (props: Props) => {
             timeBetween.days() < 0 ||
             timeBetween.weeks() < 0 ||
             timeBetween.months() < 0 ||
-            timeBetween.years() < 0){
+            timeBetween.years() < 0) {
             props.reached();
         }
     })

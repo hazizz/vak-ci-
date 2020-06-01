@@ -13,6 +13,10 @@ html, body, #root {
     align-self: flex-start;
 }
 
+.countDown .numbers {
+    font-family: "Lobster Monospace", monospace;
+}
+
 .letters {
     font-size: 2.8em;
     align-items: center;
@@ -25,7 +29,6 @@ html, body, #root {
     display: flex;
     justify-content: center;
     font-family: Chawp, monospace;
-    color: white;
     z-index: 0;
     user-select: none;
 }
@@ -114,9 +117,28 @@ main {
     justify-content: center;
 }
 
+.react-cookie-law-select-pane{
+    display: none !important;
+}
+
+.react-cookie-law-dialog{
+    top: unset !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    position: fixed !important;
+    z-index: 9999999 !important;
+    background-color: rgb(255,255,255) !important;
+    padding: 10px !important;
+}
+
 @font-face {
     font-family: 'Lobster';
     src: local('Lobster'), url("./fonts/Lobster-Regular.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'Lobster Monospace';
+    src: local('Lobster Monospace'), url("./fonts/Lobster-Regular-Monospace.ttf") format('truetype');
 }
 
 @font-face {

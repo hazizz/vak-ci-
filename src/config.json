@@ -1,8 +1,13 @@
 {
   "backgrounds": [
-    "",
-    "",
-    ""
+    {
+      "image_url": "/images/background.png",
+      "text_color": "#000"
+    },
+    {
+      "image_url": "/images/background_1.png",
+      "text_color": "#fff"
+    }
   ],
   "currentYearStart": "2019-08-31 23:59",
   "currentYearEnd": "2020-06-15 23:59",
