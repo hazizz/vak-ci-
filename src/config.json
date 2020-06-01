@@ -9,8 +9,8 @@
       "text_color": "#fff"
     }
   ],
-  "currentYearStart": "2019-08-31 23:59",
-  "currentYearEnd": "2020-06-15 23:59",
-  "nextYearStart": "2020-08-31 23:59",
+  "currentYearStart": "2019-09-01 08:00",
+  "currentYearEnd": "2020-06-15 15:00",
+  "nextYearStart": "2020-09-01 08:00",
   "nextYearEnd": "2021-06-15 23:59"
 }

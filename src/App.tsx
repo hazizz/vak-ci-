@@ -20,7 +20,7 @@ const App = () => {
     });
 
     return (
-        <Main backgroundIndex={1}/>
+        <Main backgroundIndex={backgroundIndex}/>
     );
 };
 

@@ -13,7 +13,7 @@ const Countdown = (props: Props) => {
     const isRowBreakNeeded = timeBetween.years() || timeBetween.months() || timeBetween.weeks() || timeBetween.days();
 
     let outputTime = <span>
-        {(props.reachCounter % 2) === 0 ? <span>A tanév kezdetéig: <br/></span> : <span>A tanév végéig: <br/></span>}
+        {(props.reachCounter % 2) === 0 ? <span>A tanév kezdetéig: <br/></span> : <span>A vakáció kezdetéig: <br/></span>}
         {timeBetween.years() > 0 ? timeBetween.years() + " év, " : ""}
         {timeBetween.months() > 0 ? timeBetween.months() + " hónap, " : ""}
         {timeBetween.weeks() > 0 ? timeBetween.weeks() + " hét, " : ""}
