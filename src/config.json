@@ -1,11 +1,11 @@
 {
   "backgrounds": [
     {
-      "image_url": "/images/background.png",
+      "image_url": "images/background.png",
       "text_color": "#000"
     },
     {
-      "image_url": "/images/background_1.png",
+      "image_url": "images/background_1.png",
       "text_color": "#fff"
     }
   ],
