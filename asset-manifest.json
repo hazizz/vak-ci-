@@ -1,25 +1,26 @@
 {
   "files": {
-    "main.css": "https://hazizz.hu/vakacio/static/css/main.39bc94c9.chunk.css",
-    "main.js": "https://hazizz.hu/vakacio/static/js/main.b337fcaf.chunk.js",
-    "main.js.map": "https://hazizz.hu/vakacio/static/js/main.b337fcaf.chunk.js.map",
+    "main.css": "https://hazizz.hu/vakacio/static/css/main.53c31bce.chunk.css",
+    "main.js": "https://hazizz.hu/vakacio/static/js/main.ff18cdbe.chunk.js",
+    "main.js.map": "https://hazizz.hu/vakacio/static/js/main.ff18cdbe.chunk.js.map",
     "runtime-main.js": "https://hazizz.hu/vakacio/static/js/runtime-main.ad3fad64.js",
     "runtime-main.js.map": "https://hazizz.hu/vakacio/static/js/runtime-main.ad3fad64.js.map",
-    "static/js/2.2b521f5b.chunk.js": "https://hazizz.hu/vakacio/static/js/2.2b521f5b.chunk.js",
-    "static/js/2.2b521f5b.chunk.js.map": "https://hazizz.hu/vakacio/static/js/2.2b521f5b.chunk.js.map",
+    "static/js/2.94349d56.chunk.js": "https://hazizz.hu/vakacio/static/js/2.94349d56.chunk.js",
+    "static/js/2.94349d56.chunk.js.map": "https://hazizz.hu/vakacio/static/js/2.94349d56.chunk.js.map",
     "index.html": "https://hazizz.hu/vakacio/index.html",
-    "precache-manifest.537322e7c2513e1aa17c0b7dbffb8e0f.js": "https://hazizz.hu/vakacio/precache-manifest.537322e7c2513e1aa17c0b7dbffb8e0f.js",
+    "precache-manifest.779214ac2793b7564e11de8750ff81a8.js": "https://hazizz.hu/vakacio/precache-manifest.779214ac2793b7564e11de8750ff81a8.js",
     "service-worker.js": "https://hazizz.hu/vakacio/service-worker.js",
-    "static/css/main.39bc94c9.chunk.css.map": "https://hazizz.hu/vakacio/static/css/main.39bc94c9.chunk.css.map",
-    "static/js/2.2b521f5b.chunk.js.LICENSE.txt": "https://hazizz.hu/vakacio/static/js/2.2b521f5b.chunk.js.LICENSE.txt",
+    "static/css/main.53c31bce.chunk.css.map": "https://hazizz.hu/vakacio/static/css/main.53c31bce.chunk.css.map",
+    "static/js/2.94349d56.chunk.js.LICENSE.txt": "https://hazizz.hu/vakacio/static/js/2.94349d56.chunk.js.LICENSE.txt",
     "static/media/ChelseaMarket-Regular.ttf": "https://hazizz.hu/vakacio/static/media/ChelseaMarket-Regular.405f23af.ttf",
+    "static/media/style.css": "https://hazizz.hu/vakacio/static/media/Lobster-Regular-Monospace.3ecd9f9b.ttf",
     "static/media/Lobster-Regular.ttf": "https://hazizz.hu/vakacio/static/media/Lobster-Regular.569273ee.ttf",
     "static/media/chawp.regular.ttf": "https://hazizz.hu/vakacio/static/media/chawp.regular.1c03ed6d.ttf"
   },
   "entrypoints": [
     "static/js/runtime-main.ad3fad64.js",
-    "static/js/2.2b521f5b.chunk.js",
-    "static/css/main.39bc94c9.chunk.css",
-    "static/js/main.b337fcaf.chunk.js"
+    "static/js/2.94349d56.chunk.js",
+    "static/css/main.53c31bce.chunk.css",
+    "static/js/main.ff18cdbe.chunk.js"
   ]
 }
