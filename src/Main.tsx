@@ -51,7 +51,7 @@ const Main = (props: {backgroundIndex: number}) => {
             <footer>Az oldal elkészültét támogatta a <a href="//hazizz.hu">Házizz</a>!</footer>
 
             <CookieBanner
-                message="Még tesztelés alatt."
+                message="A sütik sose mennek vakációzni, és ezen az oldalon is megtalálhatóak. További részletek olvashatsz erről az alábbi linken!"
                 showPreferencesOption={false}
                 showStatisticsOption={false}
                 showMarketingOption={false}
