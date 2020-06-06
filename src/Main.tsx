@@ -51,10 +51,10 @@ const Main = (props: {backgroundIndex: number}) => {
 
             <footer>Az oldal elkészültét támogatta a <a href="//hazizz.hu" onClick={() => {
                 firebase.analytics().logEvent("navigate_to_main_page");
-            }}>Házizz</a>!</footer>
+            }}>Házizz</a>! | Grafika: <a href="//icons8.com">icons8</a></footer>
 
             <CookieBanner
-                message="(FEJLESZTŐI VERZIÓ!!! AZ ADATKEZELÉSI NYILATKOZAT NEM TELJES!) A sütik sose mennek vakációzni, és ezen az oldalon is megtalálhatóak. További részletek olvashatsz erről az alábbi linken!"
+                message="A sütik sose mennek vakációzni, és ezen az oldalon is megtalálhatóak. További részleteket olvashatsz erről az alábbi linken!"
                 showPreferencesOption={false}
                 showStatisticsOption={false}
                 showMarketingOption={false}
