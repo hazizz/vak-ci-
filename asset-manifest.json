@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "https://hazizz.hu/vakacio/static/css/main.579228ca.chunk.css",
-    "main.js": "https://hazizz.hu/vakacio/static/js/main.279c5434.chunk.js",
-    "main.js.map": "https://hazizz.hu/vakacio/static/js/main.279c5434.chunk.js.map",
+    "main.js": "https://hazizz.hu/vakacio/static/js/main.540a37ed.chunk.js",
+    "main.js.map": "https://hazizz.hu/vakacio/static/js/main.540a37ed.chunk.js.map",
     "runtime-main.js": "https://hazizz.hu/vakacio/static/js/runtime-main.ad3fad64.js",
     "runtime-main.js.map": "https://hazizz.hu/vakacio/static/js/runtime-main.ad3fad64.js.map",
     "static/js/2.88316d04.chunk.js": "https://hazizz.hu/vakacio/static/js/2.88316d04.chunk.js",
     "static/js/2.88316d04.chunk.js.map": "https://hazizz.hu/vakacio/static/js/2.88316d04.chunk.js.map",
     "index.html": "https://hazizz.hu/vakacio/index.html",
-    "precache-manifest.0d7cd44fb4ae13d94d8f977826c5d9b2.js": "https://hazizz.hu/vakacio/precache-manifest.0d7cd44fb4ae13d94d8f977826c5d9b2.js",
+    "precache-manifest.097976b2a44e18ccf984d10fe57c4330.js": "https://hazizz.hu/vakacio/precache-manifest.097976b2a44e18ccf984d10fe57c4330.js",
     "service-worker.js": "https://hazizz.hu/vakacio/service-worker.js",
     "static/css/main.579228ca.chunk.css.map": "https://hazizz.hu/vakacio/static/css/main.579228ca.chunk.css.map",
     "static/js/2.88316d04.chunk.js.LICENSE.txt": "https://hazizz.hu/vakacio/static/js/2.88316d04.chunk.js.LICENSE.txt",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.ad3fad64.js",
     "static/js/2.88316d04.chunk.js",
     "static/css/main.579228ca.chunk.css",
-    "static/js/main.279c5434.chunk.js"
+    "static/js/main.540a37ed.chunk.js"
   ]
 }
